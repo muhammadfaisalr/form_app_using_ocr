@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "59539092489",
+    "project_id": "ocr-system-873ec",
+    "storage_bucket": "ocr-system-873ec.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:59539092489:android:637aefac9d10771bd774d8",
+        "android_client_info": {
+          "package_name": "id.muhammadfaisal.formulirapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "59539092489-qtlfip3rg6fjsrk1vi8im4uqomgvdbvq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBMIS0-BTN-UjnL6-3YYRXwfBLT6w2NHdY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "59539092489-qtlfip3rg6fjsrk1vi8im4uqomgvdbvq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
