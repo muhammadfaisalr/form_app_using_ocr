@@ -1,4 +1,4 @@
-package id.muhammadfaisal.formulirapp.database
+package id.muhammadfaisal.formulirapp.helper
 
 import com.google.firebase.database.DatabaseReference
 import com.google.firebase.database.FirebaseDatabase

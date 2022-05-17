@@ -13,7 +13,7 @@ import android.view.View
 import android.widget.Toast
 import com.google.android.material.button.MaterialButtonToggleGroup
 import id.muhammadfaisal.formulirapp.R
-import id.muhammadfaisal.formulirapp.database.FirebaseHelper
+import id.muhammadfaisal.formulirapp.helper.FirebaseHelper
 import id.muhammadfaisal.formulirapp.database.dao.KtpDao
 import id.muhammadfaisal.formulirapp.database.dao.NpwpDao
 import id.muhammadfaisal.formulirapp.database.dao.SimDao
@@ -75,9 +75,11 @@ class FormActivity : AppCompatActivity(), View.OnClickListener,
         this.npwpDao = DatabaseHelper.npwpDao(this)
 
         if (this.formId == 0L) {
+            //Untuk Merubah ID.
             this.formId = System.currentTimeMillis()
             this.formEntity = FormEntity(this.formId, "", 1, "", "", "", 0L, 0L, "", Constant.Status.LOCAL)
 
+            //Create Object Baru ketika FormID == 0
             formDao.insert(this.formEntity)
         }
 

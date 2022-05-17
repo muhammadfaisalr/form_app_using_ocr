@@ -12,7 +12,5 @@ class FormulirApplication : Application() {
     override fun onCreate() {
         super.onCreate()
         Log.d(TAG, "onCreate();")
-
-
     }
 }
